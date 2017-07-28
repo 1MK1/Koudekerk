@@ -11,11 +11,11 @@
 </head>
 <body <?php body_class(); ?>>
 
-<div class="container">
-<header class="site-header">
-    <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+<header class="site-header col-md-3">
+    <div class="siteheadername"><h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1></div>
  <nav class="site-nav">
     <?php wp_nav_menu(); ?>
  </nav>
 
  </header>
+ <div class="container col-md-9">

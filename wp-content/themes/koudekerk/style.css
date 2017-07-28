@@ -20,3 +20,76 @@ body.single.single-post .posts .post_content{
     margin-right: auto;
     margin-top: 50px;
 }
+
+.site-header{
+    height: 100vh;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.siteheadername{
+    position: fixed;
+    width: 25%;
+}
+.container{
+    float:right;
+}
+/*Site Menu Navigation*/
+nav.site-nav{
+    width: 100%;
+    height: 100%;
+    margin-top: 110px;
+}
+nav.site-nav .menu-main-container .menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #7A9F35;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-radius: 0px 8px 0px 0px;
+}
+nav.site-nav .menu-main-container .menu-item a{
+    display: block;
+    color: #255C69;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+nav.site-nav .menu-main-container .menu-item a.active{
+    background-color: #4CAF50;
+    color: #77CC7D;
+}
+nav.site-nav .menu-main-container .menu-item a:hover:not(.active) {
+    background-color: #255C69;
+    color: #77CC7D;
+}
+/*Post Comment*/
+.container #comments.comments-area{
+    width: 600px;
+    margin: 100px auto 0px auto;
+}
+
+body div.container div#comments.comments-area div#respond.comment-respond form#commentform.comment-form p.comment-form-comment textarea#comment{
+    width: 600px;
+    height: 200px;
+    resize: none;
+}
+
+.nav-previous{
+    float:left;
+}
+.nav-next{
+    float:right;
+}
+.screen-reader-text{
+    font-size: 25px;
+}
+/*#respond input[type=text], textarea {
+background: black;
+padding:0 5px 0 5px;
+}
+ */
